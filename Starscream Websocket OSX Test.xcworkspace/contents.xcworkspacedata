@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:Starscream Websocket OSX Test/Starscream Websocket OSX Test.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Starscream/Starscream.xcodeproj">
+   </FileRef>
+</Workspace>

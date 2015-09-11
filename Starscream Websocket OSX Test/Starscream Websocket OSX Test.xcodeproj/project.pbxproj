@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2298FE291BA315FB007AA03D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298FE281BA315FB007AA03D /* AppDelegate.swift */; };
+		2298FE2B1BA315FB007AA03D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2298FE2A1BA315FB007AA03D /* Images.xcassets */; };
+		2298FE2E1BA315FB007AA03D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2298FE2C1BA315FB007AA03D /* MainMenu.xib */; };
+		2298FE3A1BA315FB007AA03D /* Starscream_Websocket_OSX_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298FE391BA315FB007AA03D /* Starscream_Websocket_OSX_TestTests.swift */; };
+		22C772FC1BA31A41006C0BC5 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C772FB1BA31A41006C0BC5 /* Starscream.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2298FE341BA315FB007AA03D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2298FE1B1BA315FB007AA03D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2298FE221BA315FB007AA03D;
+			remoteInfo = "Starscream Websocket OSX Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2298FE231BA315FB007AA03D /* Starscream Websocket OSX Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Starscream Websocket OSX Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2298FE271BA315FB007AA03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2298FE281BA315FB007AA03D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2298FE2A1BA315FB007AA03D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2298FE2D1BA315FB007AA03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2298FE331BA315FB007AA03D /* Starscream Websocket OSX TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Starscream Websocket OSX TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2298FE381BA315FB007AA03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2298FE391BA315FB007AA03D /* Starscream_Websocket_OSX_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starscream_Websocket_OSX_TestTests.swift; sourceTree = "<group>"; };
+		22C772FB1BA31A41006C0BC5 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = ../Starscream/build/Debug/Starscream.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2298FE201BA315FB007AA03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C772FC1BA31A41006C0BC5 /* Starscream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2298FE301BA315FB007AA03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2298FE1A1BA315FB007AA03D = {
+			isa = PBXGroup;
+			children = (
+				22C772FB1BA31A41006C0BC5 /* Starscream.framework */,
+				2298FE251BA315FB007AA03D /* Starscream Websocket OSX Test */,
+				2298FE361BA315FB007AA03D /* Starscream Websocket OSX TestTests */,
+				2298FE241BA315FB007AA03D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2298FE241BA315FB007AA03D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2298FE231BA315FB007AA03D /* Starscream Websocket OSX Test.app */,
+				2298FE331BA315FB007AA03D /* Starscream Websocket OSX TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2298FE251BA315FB007AA03D /* Starscream Websocket OSX Test */ = {
+			isa = PBXGroup;
+			children = (
+				2298FE281BA315FB007AA03D /* AppDelegate.swift */,
+				2298FE2A1BA315FB007AA03D /* Images.xcassets */,
+				2298FE2C1BA315FB007AA03D /* MainMenu.xib */,
+				2298FE261BA315FB007AA03D /* Supporting Files */,
+			);
+			path = "Starscream Websocket OSX Test";
+			sourceTree = "<group>";
+		};
+		2298FE261BA315FB007AA03D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2298FE271BA315FB007AA03D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2298FE361BA315FB007AA03D /* Starscream Websocket OSX TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2298FE391BA315FB007AA03D /* Starscream_Websocket_OSX_TestTests.swift */,
+				2298FE371BA315FB007AA03D /* Supporting Files */,
+			);
+			path = "Starscream Websocket OSX TestTests";
+			sourceTree = "<group>";
+		};
+		2298FE371BA315FB007AA03D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2298FE381BA315FB007AA03D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2298FE221BA315FB007AA03D /* Starscream Websocket OSX Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2298FE3D1BA315FB007AA03D /* Build configuration list for PBXNativeTarget "Starscream Websocket OSX Test" */;
+			buildPhases = (
+				2298FE1F1BA315FB007AA03D /* Sources */,
+				2298FE201BA315FB007AA03D /* Frameworks */,
+				2298FE211BA315FB007AA03D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Starscream Websocket OSX Test";
+			productName = "Starscream Websocket OSX Test";
+			productReference = 2298FE231BA315FB007AA03D /* Starscream Websocket OSX Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2298FE321BA315FB007AA03D /* Starscream Websocket OSX TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2298FE401BA315FB007AA03D /* Build configuration list for PBXNativeTarget "Starscream Websocket OSX TestTests" */;
+			buildPhases = (
+				2298FE2F1BA315FB007AA03D /* Sources */,
+				2298FE301BA315FB007AA03D /* Frameworks */,
+				2298FE311BA315FB007AA03D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2298FE351BA315FB007AA03D /* PBXTargetDependency */,
+			);
+			name = "Starscream Websocket OSX TestTests";
+			productName = "Starscream Websocket OSX TestTests";
+			productReference = 2298FE331BA315FB007AA03D /* Starscream Websocket OSX TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2298FE1B1BA315FB007AA03D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Sam;
+				TargetAttributes = {
+					2298FE221BA315FB007AA03D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2298FE321BA315FB007AA03D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2298FE221BA315FB007AA03D;
+					};
+				};
+			};
+			buildConfigurationList = 2298FE1E1BA315FB007AA03D /* Build configuration list for PBXProject "Starscream Websocket OSX Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2298FE1A1BA315FB007AA03D;
+			productRefGroup = 2298FE241BA315FB007AA03D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2298FE221BA315FB007AA03D /* Starscream Websocket OSX Test */,
+				2298FE321BA315FB007AA03D /* Starscream Websocket OSX TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2298FE211BA315FB007AA03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2298FE2B1BA315FB007AA03D /* Images.xcassets in Resources */,
+				2298FE2E1BA315FB007AA03D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2298FE311BA315FB007AA03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2298FE1F1BA315FB007AA03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2298FE291BA315FB007AA03D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2298FE2F1BA315FB007AA03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2298FE3A1BA315FB007AA03D /* Starscream_Websocket_OSX_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2298FE351BA315FB007AA03D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2298FE221BA315FB007AA03D /* Starscream Websocket OSX Test */;
+			targetProxy = 2298FE341BA315FB007AA03D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2298FE2C1BA315FB007AA03D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2298FE2D1BA315FB007AA03D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2298FE3B1BA315FB007AA03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2298FE3C1BA315FB007AA03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2298FE3E1BA315FB007AA03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/sam/projects/prive/SmashIt/github/Starscream-Websocket-OSX-Test/build/Debug",
+					"/Users/sam/projects/prive/SmashIt/github/Starscream-Websocket-OSX-Test/Starscream/build/Debug",
+				);
+				INFOPLIST_FILE = "Starscream Websocket OSX Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2298FE3F1BA315FB007AA03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/sam/projects/prive/SmashIt/github/Starscream-Websocket-OSX-Test/build/Debug",
+					"/Users/sam/projects/prive/SmashIt/github/Starscream-Websocket-OSX-Test/Starscream/build/Debug",
+				);
+				INFOPLIST_FILE = "Starscream Websocket OSX Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2298FE411BA315FB007AA03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Starscream Websocket OSX TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Starscream Websocket OSX Test.app/Contents/MacOS/Starscream Websocket OSX Test";
+			};
+			name = Debug;
+		};
+		2298FE421BA315FB007AA03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Starscream Websocket OSX TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Starscream Websocket OSX Test.app/Contents/MacOS/Starscream Websocket OSX Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2298FE1E1BA315FB007AA03D /* Build configuration list for PBXProject "Starscream Websocket OSX Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2298FE3B1BA315FB007AA03D /* Debug */,
+				2298FE3C1BA315FB007AA03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2298FE3D1BA315FB007AA03D /* Build configuration list for PBXNativeTarget "Starscream Websocket OSX Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2298FE3E1BA315FB007AA03D /* Debug */,
+				2298FE3F1BA315FB007AA03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2298FE401BA315FB007AA03D /* Build configuration list for PBXNativeTarget "Starscream Websocket OSX TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2298FE411BA315FB007AA03D /* Debug */,
+				2298FE421BA315FB007AA03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2298FE1B1BA315FB007AA03D /* Project object */;
+}
